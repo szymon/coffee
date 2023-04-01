@@ -1,14 +1,16 @@
 <template>
-  <CalculatorView />
+  <h1>Coffee Calculator</h1>
+
+  <CalculatorWrapper />
 </template>
 
 <script>
-import CalculatorView from './components/CalculatorView.vue'
+import CalculatorWrapper from './components/CalculatorWrapper.vue'
 
 export default {
   name: 'App',
   components: {
-    CalculatorView
+    CalculatorWrapper
   }
 }
 </script>
@@ -20,6 +22,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 3em;
 }
 </style>
